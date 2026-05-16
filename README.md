@@ -111,8 +111,6 @@ Detected laptop with confidence 0.945
 
 ## Screenshots
 
-Add screenshots of the application here.
-
 Example:
 
 ![Application Screenshot](man_result.png)
