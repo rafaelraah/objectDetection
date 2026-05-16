@@ -115,9 +115,7 @@ Add screenshots of the application here.
 
 Example:
 
-```md id="1m98ln"
-![Object Detection](espada.jpg)
-```
+![Application Screenshot](man_result.png)
 
 ---
 
