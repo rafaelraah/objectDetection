@@ -3,8 +3,11 @@ import torch
 from PIL import Image, ImageDraw
 import requests
 
-url = "https://www.universodasaudeanimal.com.br/wp-content/uploads/sites/57/2021/07/Cacho-e-gato-juntos-no-chao-posando-pra-foto.jpg"
-image = Image.open(requests.get(url, stream=True).raw)
+# url = "https://www.universodasaudeanimal.com.br/wp-content/uploads/sites/57/2021/07/Cacho-e-gato-juntos-no-chao-posando-pra-foto.jpg"
+# image = Image.open(requests.get(url, stream=True).raw)
+
+url = "espada.jpg"
+image = Image.open(url)
 
 # you can specify the revision tag if you don't want the timm dependency
 processor = DetrImageProcessor.from_pretrained("facebook/detr-resnet-50", revision="no_timm")
