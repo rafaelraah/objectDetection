@@ -116,7 +116,7 @@ Add screenshots of the application here.
 Example:
 
 ```md id="1m98ln"
-![Object Detection](screenshot.png)
+![Object Detection](man_result.png)
 ```
 
 ---
